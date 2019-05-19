@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        enabled = false;
 
         grounded = character.isGrounded;
     }
